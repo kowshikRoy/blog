@@ -1,8 +1,8 @@
-baseURL = 'https://kowshikroy.github.io/blog/'
-languageCode = 'en-us'
-title = 'matrixcode blog'
-theme = 'bookworm-light'
-
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/bookworm-light/"
+title = "Bookworm - Personal Blog Template"
+theme = "bookworm-light"
+# post pagination
 paginate = "5"
 # post excerpt
 summaryLength = "20"
@@ -130,6 +130,10 @@ name = "Contact"
 url = "contact/"
 weight = 4
   
+[[menu.main]]
+name = "Buy Premium"
+url = "https://gethugothemes.com/products/bookworm/"
+weight = 5
 
 [[menu.main]]
 weight = 6
